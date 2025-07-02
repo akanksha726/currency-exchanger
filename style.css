@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #f9f9f9;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.game-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  max-width: 400px;
+  width: 100%;
+}
+
+#hangmanCanvas {
+  margin: 20px 0;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.word span {
+  border-bottom: 2px solid #333;
+  padding: 0 5px;
+}
+
+.wrong-letters-container {
+  margin-bottom: 20px;
+}
+
+#wrong-letters {
+  color: crimson;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+#keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+#keyboard button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background: #eee;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#keyboard button:hover {
+  background: #ddd;
+}
+
+#keyboard button:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+#restart-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#restart-btn:hover {
+  background: #0056b3;
+}
+
+
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e63946;
+  margin-bottom: 10px;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  animation: popIn 0.4s ease;
+}
+
+#modal-message {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#play-again-btn {
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#play-again-btn:hover {
+  background: #218838;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+     
+@media (max-width: 500px) {
+  .word {
+    font-size: 24px;
+  }
+
+  #keyboard button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }}

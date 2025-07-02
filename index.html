@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hangman Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hangman</h1>
+
+    <div class="game-container">
+      <div class="timer" id="timer">60</div>
+
+      <canvas id="hangmanCanvas" width="200" height="250"></canvas>
+
+      <div class="word" id="word"></div>
+
+      <div class="wrong-letters-container">
+        <p>Wrong Letters:</p>
+        <div id="wrong-letters"></div>
+      </div>
+
+      <div id="keyboard"></div>
+
+      <button id="restart-btn">Restart</button>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+
+  
+  <div class="modal" id="resultModal">
+    <div class="modal-content">
+      <h2 id="modal-message"></h2>
+      <button id="play-again-btn">Play Again</button>
+    </div>
+  </div>
+      
+  <audio id="screamSound" src="https://www.myinstants.com/media/sounds/movie_1.mp3"></audio>
+  
+  <script src="hangman.js"></script>
+</body>
+</html>

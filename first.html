@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Currency Exchange</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Currency Converter</h1>
+    <form>
+       <div class="row">
+        <div class="dropdown">
+          <div class="select-wrapper">
+            <select name="from"></select>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <div class="select-wrapper">
+            <select name="to"></select>
+          </div>
+        </div>
+      </div>
+      <div class="row amount">
+        <input type="number" value="1" />
+      </div>
+      <button type="submit">Convert</button>
+    </form>
+    <p class="msg">Exchange rate will appear here.</p>
+  </div>
+
+  <!-- Load countryList first -->
+  <script src="code.js"></script>
+  <!-- Then main logic -->
+  <script src="first.js"></script>
+</body>
+</html>

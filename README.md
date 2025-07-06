@@ -45,9 +45,15 @@ If you like this project, give it a **star ⭐** and share it with others!
 
 ## 📂 Folder Structure
 
-currency-exchanger/
+currency-exchanger
+
 ├── first.html → Main UI structure
+
 ├── style.css → Styling and layout
+
 ├── first.js → API and logic handling
+
 ├── code.js → Dropdown flag and UI code
+
 └── country.json → Country list and codes
+

@@ -25,7 +25,7 @@ This app allows users to select two countries and convert currencies instantly u
 
 
 ## 🎮 Live Demo
-🔗 [Click here to try it](https://i.gifer.com/7VE.gif)
+🔗 [Click here to try it](https://currency-akanksha.netlify.app/)
 
 ---
 

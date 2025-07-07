@@ -19,13 +19,13 @@ This app allows users to select two countries and convert currencies instantly u
 
   ## 📸 Preview
 
-![Game Preview](https://assets9.lottiefiles.com/packages/lf20_1pxqjqps.json.gif)
+![Game Preview]()
 
 ---
 
 
 ## 🎮 Live Demo
-🔗 [Click here to try it](https://currency-akanksha.netlify.app/)
+🔗 [Click here to try it](https://i.gifer.com/7VE.gif)
 
 ---
 

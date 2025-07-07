@@ -19,7 +19,7 @@ This app allows users to select two countries and convert currencies instantly u
 
   ## 📸 Preview
 
-![Game Preview]()
+![Game Preview](https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
 
 ---
 

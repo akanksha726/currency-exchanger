@@ -51,13 +51,16 @@ currency-exchanger/
 │
 ├── 📁 css/
 │   └── style.css           # All CSS styles for the UI
+
 │
 ├── 📁 js/
 │   ├── script.js           # Main JavaScript file for DOM and logic
 │   └── code.js             # Logic for country & currency codes
+
 │
 ├── 📁 data/
 │   └── country.json        # Country and currency data in JSON
+
 │
 ├── index.html              # Main HTML file (entry point)
 ├── README.md               # Project documentation and preview

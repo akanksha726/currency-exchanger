@@ -48,13 +48,17 @@ If you like this project, give it a **star ⭐** and share it with others!
 currency-exchanger
 
 currency-exchanger/
+
 │
 ├── 📁 css/
+
 │   └── style.css           # All CSS styles for the UI
 
 │
 ├── 📁 js/
+
 │   ├── script.js           # Main JavaScript file for DOM and logic
+
 │   └── code.js             # Logic for country & currency codes
 
 │
@@ -63,4 +67,5 @@ currency-exchanger/
 
 │
 ├── index.html              # Main HTML file (entry point)
+
 ├── README.md               # Project documentation and preview

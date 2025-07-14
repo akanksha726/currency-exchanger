@@ -61,6 +61,7 @@ currency-exchanger/
 
 
 ├── 📁 data/
+
    └── country.json        # Country and currency data in JSON
 
 
